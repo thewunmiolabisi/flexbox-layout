@@ -7,7 +7,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 70vh;
 }
 
 .header {
@@ -37,7 +37,7 @@ body {
 }
 
 .left {
-  flex: 0 0 200px; /* Fixed width for left and right sidebars */
+  flex: 0 0 20%;
   height: 100%;
   background-color: #ddd;
   padding: 10px;
@@ -47,7 +47,7 @@ body {
   justify-content: center;
 }
 .right{
-  flex: 0 0 200px; /* Fixed width for left and right sidebars */
+  flex: 0 0 20%;
   height: 100%;
   background-color: #ddd;
   padding: 10px;
